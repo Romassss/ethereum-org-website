@@ -181,16 +181,6 @@ const Nav = ({ handleThemeChange, isDarkTheme, path }) => {
       shouldDisplay: contentVersion > 1.1,
       items: [
         {
-          text: "page-home-section-individuals-item-one",
-          to: "/what-is-ethereum/",
-          shouldDisplay: contentVersion > 1,
-        },
-        {
-          text: "page-home-section-individuals-item-four",
-          to: "/eth/",
-          shouldDisplay: contentVersion > 1,
-        },
-        {
           text: "page-home-section-individuals-item-six",
           to: "/get-eth/",
           shouldDisplay: contentVersion > 1.1,
@@ -205,6 +195,16 @@ const Nav = ({ handleThemeChange, isDarkTheme, path }) => {
           to: "/wallets/",
           shouldDisplay: contentVersion > 1,
         },
+        {
+          text: "page-stablecoins",
+          to: "/stablecoins/",
+          shouldDisplay: contentVersion > 1.1,
+        },
+        {
+          text: "page-stake-eth",
+          to: "/eth2/staking/",
+          shouldDisplay: contentVersion > 1.1,
+        },
       ],
     },
     {
@@ -213,6 +213,16 @@ const Nav = ({ handleThemeChange, isDarkTheme, path }) => {
       shouldDisplay: contentVersion > 1.1,
       items: [
         {
+          text: "page-home-section-individuals-item-one",
+          to: "/what-is-ethereum/",
+          shouldDisplay: contentVersion > 1,
+        },
+        {
+          text: "page-home-section-individuals-item-four",
+          to: "/eth/",
+          shouldDisplay: contentVersion > 1,
+        },
+        {
           text: "page-home-section-individuals-item-three",
           to: "/learn/",
           shouldDisplay: contentVersion > 1.1,
@@ -220,11 +230,6 @@ const Nav = ({ handleThemeChange, isDarkTheme, path }) => {
         {
           text: "footer-ethereum-whitepaper",
           to: "/whitepaper/",
-          shouldDisplay: contentVersion > 1.1,
-        },
-        {
-          text: "page-stablecoins",
-          to: "/stablecoins/",
           shouldDisplay: contentVersion > 1.1,
         },
         {
